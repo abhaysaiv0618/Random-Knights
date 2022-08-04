@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style-index.css" />
+    <title>Random Knights</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <a
+        target="_blank"
+        class="nav-bar-item"
+        href="https://abhaysaiv0618.github.io/Personal-Website/"
+        >Personal Website</a
+      >
+      <a
+        target="_blank"
+        class="nav-bar-item"
+        href="https://drive.google.com/file/d/1ZwEXxST4paXFWGCQ3mJkLuzGbu96gALJ/view"
+        >Resume</a
+      >
+      <a
+        target="_blank"
+        class="nav-bar-item"
+        href="https://www.linkedin.com/in/abhaysai-vemula"
+        >LinkedIn</a
+      >
+      <a
+        target="_blank"
+        class="nav-bar-item"
+        href="https://github.com/abhaysaiv0618/"
+        >Github</a
+      >
+    </div>
+    <h1>🛡 Welcome to Abhaysai's Game: Random Knights! 🛡</h1>
+    <h2>Overview:</h2>
+    <p>
+      This project was created utilizing HTML, CSS, & Javascript. The source
+      code for this project can be found
+      <a target="_blank" href="https://github.com/abhaysaiv0618/"> here</a>.
+    </p>
+    <h2>Instructions 📜:</h2>
+    <p>
+      Start off by queuing the name for Player 1. This will cause another input
+      window to open up. Queue the name for Player 2 in this input window. This
+      will cause the "Start Game" button to show. If you choose to change your
+      names, re-queue your new names before pressing the start button. Now press
+      the start button to start the game.
+      <i>Note: Choosing no name results in the default name</i>.
+    </p>
+    <section class="select-names">
+      <div class="choose-name">
+        <input
+          class="input-box"
+          id="input-box-1"
+          type="text"
+          placeholder="Player 1 Name"
+        />
+        <button class="queue" id="btn-q-1">Queue P1</button>
+      </div>
+      <div class="choose-name" id="hidden-box">
+        <input
+          class="input-box"
+          id="input-box-2"
+          type="text"
+          placeholder="Player 2 Name"
+        />
+        <button class="queue" id="btn-q-2">Queue P2</button>
+      </div>
+    </section>
+    <div class="start">
+      <button class="start-button hidden">Start Game</button>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

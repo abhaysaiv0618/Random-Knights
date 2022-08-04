@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(242, 223, 205);
+  font-family: fantasy;
+}
+
+.main {
+  margin: auto;
+  max-width: 500px;
+}
+
+.game {
+  background-color: rgb(242, 223, 205);
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(92, 71, 56);
+  border-width: 0.2rem;
+  border-radius: 15%;
+}
+
+p {
+  margin-right: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-bar {
+  float: right;
+  margin: 5px 15px 5px 5px;
+}
+
+.nav-bar-item {
+  margin-right: 11px;
+  color: rgb(132, 0, 255);
+}
+
+.dice {
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+.player {
+  border: solid;
+  border-radius: 30px;
+  border-width: 0.2rem;
+  border-color: rgb(119, 96, 77);
+  width: fit-content;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.active-player {
+  color: green;
+  background-color: yellow;
+}
+
+.winner {
+  background-color: rgb(108, 228, 108);
+  font-weight: bold;
+  border-color: darkgreen;
+}
+
+.loser {
+  background-color: red;
+  font-weight: lighter;
+  border-color: darkred;
+}

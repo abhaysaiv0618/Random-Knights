@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style-game.css" />
+    <title>Playing - Random Knights </title>
+  </head>
+  <body>
+    <div class = "nav-bar">
+      <a class = "nav-bar-item"href="index.html">Home</a>
+      <a class = "nav-bar-item" href="game.html">New Game</a>
+    </div>
+    <h1>🛡 Playing Abhaysai's Game: Random Knights! 🛡</h1>
+    
+
+    <div class="Instructions" id="left">
+      <h2>Instructions 📜:</h2>
+      <p>
+        Each player in Random Knights will have two abilities: attack & heal.  The number displayed by rolling the dice will influence the magnitude of these abilities.  The attack factor is determined by multiplying <strong>5</strong> to the number the dice rolled, and the healing factor is determined by multiplying <strong>3</strong> to the number the dice rolled.  After successfully attacking <strong>3 times</strong>, the player's Knight is granted a power-up which sets the attack factor to <strong>10</strong> times the dice number rolled.  However, beware the Joker.  If the Joker card appears, the current player's turn is automatically skipped regardless of their health or power-up status. Press the Start button to start the game!
+      </p>
+
+      <!-- <hr> -->
+      <main class="main">
+        <section class="game">
+          <section>
+            <div class="player player-1">
+              <h2 class="p1 name p1-name active-player">Player 1</h3>
+                <p class="health">Health: <span class = "p1 p1-health">100</span></p>
+                <p class="powerUp">Power Up: <span class = "p1-powerUp-status">❌</span><span class = "p1 p1-powerUp hidden">0</span></p>
+              </div>
+            <div class="player player-2">
+                <h2 class="p2 name p2-name">Player 2</h3>
+                  <p class="health">Health: <span class = "p2 p2-health">100</span></p>
+                  <p class="powerUp">Power Up: <span class = "p2-powerUp-status" >❌</span><span class = "p2 p2-powerUp hidden">0</span></p>
+                </div>
+          </section>
+          <section>
+            <img class = "dice"src="imgs/Knight_Battle.jpg" alt="img">
+            
+            <div>
+              <button class = "button start-button">Start ✅</button>
+              <button class = "button roll-button hidden">Roll 🎲</button>
+            </div>
+            <div>
+              <button class= "button attack-button hidden">Attack 🤺</button>
+              <button  class= "button heal-button hidden">Heal ⚕️</button></div>
+            <div>
+              <button class= "button restart-button hidden">Restart 🔁</button>
+              <button class= "button home-button hidden">Home 🏡</button>
+            </div>
+          </section>
+        </section>
+      </main>
+      <script src="js/game.js"></script>
+    </div>
+  </body>
+</html>
